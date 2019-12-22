@@ -1,14 +1,14 @@
 import React from 'react';
 
 const Weather = props => (
-    <div className="weather__info p-5">
+    <div className="weather__info">
         {
             props.error && <p className="weather__error">{props.error}</p>
         }
         <div className="container">
             <div className="cards">
-                <h3>{props.address}</h3>
-                <h4>{props.date} {props.dayOfWeek}</h4>
+                <h3 className="address">{props.address}</h3>
+                <h4 className="current-date">{props.date} {props.dayOfWeek}</h4>
                 <h5 className="py-4">
                     <i className={`wi ${props.weatherIcon} display-1`} />
                 </h5>
