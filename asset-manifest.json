@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/weatherapp_k2tech/static/css/main.89852745.chunk.css",
-    "main.js": "/weatherapp_k2tech/static/js/main.4fd44306.chunk.js",
-    "main.js.map": "/weatherapp_k2tech/static/js/main.4fd44306.chunk.js.map",
+    "main.css": "/weatherapp_k2tech/static/css/main.5f0c6730.chunk.css",
+    "main.js": "/weatherapp_k2tech/static/js/main.3be54263.chunk.js",
+    "main.js.map": "/weatherapp_k2tech/static/js/main.3be54263.chunk.js.map",
     "runtime-main.js": "/weatherapp_k2tech/static/js/runtime-main.f53bc516.js",
     "runtime-main.js.map": "/weatherapp_k2tech/static/js/runtime-main.f53bc516.js.map",
     "static/css/2.01ccd7bc.chunk.css": "/weatherapp_k2tech/static/css/2.01ccd7bc.chunk.css",
     "static/js/2.defe6a79.chunk.js": "/weatherapp_k2tech/static/js/2.defe6a79.chunk.js",
     "static/js/2.defe6a79.chunk.js.map": "/weatherapp_k2tech/static/js/2.defe6a79.chunk.js.map",
     "index.html": "/weatherapp_k2tech/index.html",
-    "precache-manifest.9f603a5a3ffc139ba8b0bf6687a7e90e.js": "/weatherapp_k2tech/precache-manifest.9f603a5a3ffc139ba8b0bf6687a7e90e.js",
+    "precache-manifest.e81069a3b7b32ffde8ce431da2169f21.js": "/weatherapp_k2tech/precache-manifest.e81069a3b7b32ffde8ce431da2169f21.js",
     "service-worker.js": "/weatherapp_k2tech/service-worker.js",
     "static/css/2.01ccd7bc.chunk.css.map": "/weatherapp_k2tech/static/css/2.01ccd7bc.chunk.css.map",
-    "static/css/main.89852745.chunk.css.map": "/weatherapp_k2tech/static/css/main.89852745.chunk.css.map",
+    "static/css/main.5f0c6730.chunk.css.map": "/weatherapp_k2tech/static/css/main.5f0c6730.chunk.css.map",
     "static/js/2.defe6a79.chunk.js.LICENSE": "/weatherapp_k2tech/static/js/2.defe6a79.chunk.js.LICENSE",
     "static/media/App.css": "/weatherapp_k2tech/static/media/sydney-destination.38a1d465.jpg",
     "static/media/weather-icons.css": "/weatherapp_k2tech/static/media/weathericons-regular-webfont.ed0943f2.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.f53bc516.js",
     "static/css/2.01ccd7bc.chunk.css",
     "static/js/2.defe6a79.chunk.js",
-    "static/css/main.89852745.chunk.css",
-    "static/js/main.4fd44306.chunk.js"
+    "static/css/main.5f0c6730.chunk.css",
+    "static/js/main.3be54263.chunk.js"
   ]
 }
