@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap');
+
+body {
+  font-family: "Open Sans", serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+  background: linear-gradient(0deg , #c9d1c8, #304040);
+  /* height: 100vh; */
+  padding:5% 15%;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main {
+  /* height: 80%; */
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  /* width: 80%; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title-container {
+  padding: 5em;
+  /* background: url("img/sydney-destination.jpg") center center no-repeat; */
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("img/sydney-destination.jpg");
+  background-size: cover;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  color: #000;
 }
 
-.App-link {
-  color: #61dafb;
+.title-container__title {
+  font-size: 50px;
+  letter-spacing: 2px;
+  color:white;
+  line-height: 1.3;
+  font-family: 'Ma Shan Zheng', cursive;;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-container__subtitle {
+  color:white;
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: 'Ma Shan Zheng', cursive;;
+}
+
+.form-container {
+  padding: 3em;
+  background-color: #04202c;
+  /* height: 40vh; */
+  text-align: center;
+  justify-content: center;
+  /* padding-top: 100px;
+  padding-left: 50px; */
+}
+
+.forecast-container {
+    padding-bottom:4em;
+    background-color: #04202c;
+    text-align: center;
+    justify-content: center;
+}
+
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #00c4cc;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+input[type="text"] { 
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+    -webkit-text-fill-color: #fff !important;
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #00c4cc;
+  color: #fff;
+  font-weight: 100;
+}
+
+button:active {
+  outline: none;
+}
+
+.weather__info {
+  width: 60%;
+  color:white;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.weather__key {
+  color: #00c4cc;
+  border-bottom: solid 2px rgba(255,255,255,0.06);
+  padding: 20px 0 20px 0;
+  font-weight: 400;
+}
+
+.weather__key:last-child {
+  border: 0;
+}
+
+.weather__value {
+  color: #fff;
+  font-weight: 200;
+}
+
+.weather__error {
+  color: #00c4cc;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200;
 }
